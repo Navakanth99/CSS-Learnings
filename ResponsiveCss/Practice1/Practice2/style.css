@@ -1,0 +1,33 @@
+body{
+    font-size: 1.125rem;
+    color: #707070;
+    margin: 0;
+}
+
+.container{
+    width: 95%;
+    max-width: 980px;
+    
+    margin: 0 auto;
+    border: 2px solid black;
+}
+p{
+    margin-top: 0;
+}
+.columns{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 1em 0;
+}
+.col-bg {
+    background: #212614;
+    padding: 1em;
+    color: #fff;
+}
+.col-1{
+    width: 20%;
+}
+.col-2{
+    width: 45%;
+}
